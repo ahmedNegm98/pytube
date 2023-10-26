@@ -257,7 +257,7 @@ class YouTube:
         innertube_response = innertube.player(self.video_id)
 
         playability_status = innertube_response['playabilityStatus'].get('status', None)
-
+        print(playability_status)
         # If we still can't access the video, raise an exception
         # (tier 3 age restriction)
         if playability_status == 'UNPLAYABLE':
