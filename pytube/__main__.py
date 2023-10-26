@@ -33,6 +33,7 @@ class YouTube:
         use_oauth: bool = False,
         allow_oauth_cache: bool = True
     ):
+        pdb.set_trace()
         """Construct a :class:`YouTube <YouTube>`.
 
         :param str url:
