@@ -249,7 +249,7 @@ class YouTube:
         return self._vid_info
 
     def bypass_age_gate(self):
-        """Attempt to update the vid_info by bypassing the age gate."""
+        """Attempt to update the vid_info by bypassing the age gate.yaraab"""
         innertube = InnerTube(
             client='WEB',
             use_oauth=self.use_oauth,
