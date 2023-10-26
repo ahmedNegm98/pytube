@@ -52,6 +52,7 @@ class YouTube:
             (Optional) Cache OAuth tokens locally on the machine. Defaults to True.
             These tokens are only generated if use_oauth is set to True as well.
         """
+        print("hello YouTube")
         self._js: Optional[str] = None  # js fetched by js_url
         self._js_url: Optional[str] = None  # the url to the js, parsed from watch html
 
